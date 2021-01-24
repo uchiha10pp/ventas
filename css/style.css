@@ -14,15 +14,52 @@ html{
 
 body{
     font-size: 16px; /*1rem = 10px*/
+    font-family: 'Fraunces', serif;
 }
 
 .titulo{
     text-align: center;
     font-size: 3.8rem;
     color: var(--principal);
-    font-family: lobter;   /*UNA DE LAS FUENTES ES: GOOGLE FONTS*/
+    font-family: 'Fraunces', serif;   /*UNA DE LAS FUENTES ES: GOOGLE FONTS*/
 }
 
 .titulo span{
     font-size: 2rem;
+}
+
+.contenedor{
+    width: 100rem;
+    margin: 0 auto;
+    /*margin: 0 auto 0 auto; en CSS si los valores se repiten solo se pueden ponder 2 valores*/
+    /*margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;*/
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{    
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a{    
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{
+    background: var(--principal);
+    color: var(--oscuro);
+}
+
+@media (min-width: ) {
+        
 }
